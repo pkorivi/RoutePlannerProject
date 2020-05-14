@@ -57,6 +57,7 @@ int main(int argc, const char **argv)
     // RoutePlanner object below in place of 10, 10, 90, 90.
 
     float start_x, start_y, end_x, end_y;
+    std::cout<<"Enter start_x, start_y, end_x, end_y coordinates "<<std::endl;
     std::cin>>start_x>>start_y>>end_x>>end_y;
 
 
