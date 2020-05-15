@@ -60,7 +60,7 @@ int main(int argc, const char **argv)
     std::cout<<"Enter start_x, start_y, end_x, end_y coordinates "<<std::endl;
     std::cin>>start_x>>start_y>>end_x>>end_y;
 
-
+    std::cout << "\nEntered start node is: " << start_x << "/" << start_y << "\nEntered end node is:   " << end_x << "/" << end_y << "\n\n" << std::endl;
     // Build Model.
     RouteModel model{osm_data};
 
